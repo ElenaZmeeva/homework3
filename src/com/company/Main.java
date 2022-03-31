@@ -6,32 +6,32 @@ public class Main {
 	// task 1
         int clientOS =1;
         if ( clientOS ==0 ){
-            System.out.println(" Установите версию приложения для IOS по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ IOS РїРѕ СЃСЃС‹Р»РєРµ.");
         } else {
-            System.out.println(" Установите версию приложения для Android по ссылке");
+            System.out.println(" РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ.");
         }
             //Task 2
 int clientDeviceYear =2014;
         int clientAnd = 1;
         if(clientAnd ==1 && clientDeviceYear >=2015){
-            System.out.println(" Установите версию приложения для Android по ссылке");
+            System.out.println(" РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
         }else {
-            System.out.println("Установите облегченную  версию приложения для Android по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ Android РїРѕ СЃСЃС‹Р»РєРµ");
         }
         int clientIOS=0;
         if (clientIOS ==0 && clientDeviceYear >= 2015){
-            System.out.println(" Установите версию приложения для IOS по ссылке");
+            System.out.println(" РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ IOS РїРѕ СЃСЃС‹Р»РєРµ ");
         } else {
-            System.out.println("Установите облегченную  версию приложения для IOS по ссылке");
+            System.out.println("РЈСЃС‚Р°РЅРѕРІРёС‚Рµ РѕР±Р»РµРіС‡РµРЅРЅСѓСЋ РІРµСЂСЃРёСЋ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ IOS РїРѕ СЃСЃС‹Р»РєРµ");
         }
 
         //Task 3
 int year = 2020;
         boolean isYearLeap =(year % 4 ==0 )|| (year % 100 == 0) && ( year % 400==0);
 if (isYearLeap) {
-    System.out.println("Год является високосным");
+    System.out.println("Р“РѕРґ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј");
 } else {
-    System.out.println(" Год не является високосным");
+    System.out.println("Р“РѕРґ РЅРµ СЏРІР»СЏРµС‚СЃСЏ РІРёСЃРѕРєРѕСЃРЅС‹Рј ");
 }
 
 
@@ -39,13 +39,13 @@ if (isYearLeap) {
         int deliveryDistance= 95;
 int deliveryDays =1;
         if (deliveryDistance <=20){
-            System.out.println(" Потребуется: " + deliveryDays + " день.");
+            System.out.println(" РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ: " + deliveryDays + " РґРЅРµР№.");
         }else if (deliveryDistance>20 && deliveryDistance<= 60){
-            System.out.println(" Потребуется:" + (deliveryDays + 1) + "дня." );
+            System.out.println(" РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ:" + (deliveryDays + 1) + "РґРЅСЏ." );
         }else if ( deliveryDistance>60 && deliveryDistance<=100){
-            System.out.println(" Потребуется: "+ (deliveryDays+2) + " дня.");
+            System.out.println(" РџРѕС‚СЂРµР±СѓРµС‚СЃСЏ: "+ (deliveryDays+2) + " РґРЅСЏ.");
         } else {
-            System.out.println(" Доставка не производится.");
+            System.out.println(" Р”РѕСЃС‚Р°РІРєР° РЅРµ РїСЂРѕРёР·РІРѕРґРёС‚СЃСЏ.");
         }
 
 
@@ -53,43 +53,43 @@ int deliveryDays =1;
         int monthNumber=12;
         switch ( monthNumber ){
             case 1:
-                System.out.println("Январь");
+                System.out.println("РЇРЅРІР°СЂСЊ");
                 break;
             case 2:
-                System.out.println("Февраль");
+                System.out.println("Р¤РµРІСЂР°Р»СЊ");
                 break;
             case 3:
-                System.out.println("Март");
+                System.out.println("РњР°СЂС‚");
                 break;
             case 4:
-                System.out.println("Апрель");
+                System.out.println("РђРїСЂРµР»СЊ");
                 break;
             case 5:
-                System.out.println("Май");
+                System.out.println("РњР°Р№");
                 break;
             case 6:
-                System.out.println("Июнь");
+                System.out.println("РСЋРЅСЊ");
                 break;
             case 7:
-                System.out.println("Июль");
+                System.out.println("РСЋР»СЊ");
                 break;
             case 8:
-                System.out.println("Август");
+                System.out.println("РђРІРіСѓСЃС‚");
                 break;
             case 9:
-                System.out.println("Сентябрь");
+                System.out.println("РЎРµРЅС‚СЏР±СЂСЊ");
                 break;
             case 10:
-                System.out.println("Октябрь");
+                System.out.println("РћРєС‚СЏР±СЂСЊ");
                 break;
             case 11:
-                System.out.println("Ноябрь");
+                System.out.println("РќРѕСЏР±СЂСЊ");
                 break;
             case 12:
-                System.out.println("Декабрь");
+                System.out.println("Р”РµРєР°Р±СЂСЊ");
                 break;
             default:
-                System.out.println("Такого месяца не существует.");
+                System.out.println("РўР°РєРѕРіРѕ РјРµСЃСЏС†Р° РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚.");
         }
         }
     }
